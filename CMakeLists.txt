@@ -7,6 +7,7 @@ set(SOURCES
     src/sub.cpp
     src/mul.cpp
     src/div.cpp
+    src/variable.cpp
     src/lexer.cpp
     src/parser.cpp
     src/astnode.cpp

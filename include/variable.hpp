@@ -4,7 +4,7 @@
 
 class Variable : public ASTNode{
   public:
-    Variable(std::string val) : ASTNode(val), val_(val) {} 
+    Variable(std::string val);  
     
   private:
     std::string val_;
