@@ -1,6 +1,3 @@
 #include "div.hpp"
 
-Div::Div(ASTNode *lhs, ASTNode *rhs)
-    : ASTNode("/", lhs, rhs), 
-    lhs_(lhs), 
-    rhs_(rhs) {}
+Div::Div(ASTNode *lhs, ASTNode *rhs) : ASTNode("/", lhs, rhs) {}
